@@ -23,11 +23,11 @@
     <div  class=" mr-6  sm:pt-10 lg:pt-0 flex flex-col sm:block " 
       :class="[navbarOpen ? 'block transition duration-300 ease-in-out' : 'hidden']"
     >
-      <router-link to="/" class="lg:text-xl hover:bg-gray-700 rounded-full p-2 pl-20 lg:pl-6 text-gray-100">Inicio</router-link>
-      <router-link to="/proyectos" class="lg:text-xl hover:bg-gray-700 rounded-full p-2 pl-20 lg:pl-6 text-gray-100">Proyectos</router-link>
-      <a href="#teams" class="lg:text-xl hover:bg-gray-700 rounded-full p-2 pl-20 lg:pl-6 text-gray-100">Equipo</a>
-      <router-link to="/blog" class="lg:text-xl hover:bg-gray-700 rounded-full p-2 pl-20 lg:pl-6 text-gray-100">Blog</router-link>
-      <router-link to="/contact" class="lg:text-xl hover:bg-gray-700 rounded-full p-2 pl-20 lg:pl-6 text-gray-100">Contactanos</router-link>
+      <router-link to="/" class="lg:text-xl hover:text-white rounded-full p-2 pl-20 lg:pl-6 text-gray-300">Inicio</router-link>
+      <router-link to="/proyectos" class="lg:text-xl hover:text-white rounded-full p-2 pl-20 lg:pl-6 text-gray-300">Proyectos</router-link>
+      <router-link to="/equipos" class="lg:text-xl hover:text-white rounded-full p-2 pl-20 lg:pl-6 text-gray-300">Equipo</router-link>
+      <router-link to="/blog" class="lg:text-xl hover:text-white rounded-full p-2 pl-20 lg:pl-6 text-gray-300">Blog</router-link>
+      <router-link to="/contact" class="lg:text-xl hover:text-white rounded-full p-2 pl-20 lg:pl-6 text-gray-300">Contactanos</router-link>
     </div>
 
   </nav>

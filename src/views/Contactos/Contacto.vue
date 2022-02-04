@@ -1,43 +1,30 @@
 <template>
   <div class="bg-gray-200">
-    <Nav></Nav>
-    <main>
-      <div class="flex-auto m-auto bg-gray-300 px-4 mt-10 lg:w-8/12 lg:px-10 py-10 pt-0" style="border: 1px solid #ccc">
+    <Nav class="fixed w-full"></Nav>
+    <main class="pt-40">
+      <div class="flex-auto m-auto bg-gray-300 px-4  lg:w-8/12 lg:px-10 py-10 shadow-lg" style="border-radius: 10px">
         <div class="mt-10 text-3xl underline font-bold text-center mb-3 font-bold">
           Contactanos
         </div>
         <form>
-          <div class="relative w-full mb-3">
+          <div class=" w-full mb-3">
             <label
-              class="block uppercase text-blue-600 text-base font-bold mb-2"
-            >
-              Email
-            </label>
-            <input
-              type="email"
-              class="border-0 px-3 py-3  placeholder-blue-300 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+              class="block uppercase text-blue-600 text-base font-bold mb-2" >Email</label>
+            <input type="email" class="border-0 px-3 py-3  placeholder-blue-300 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
               placeholder="Email"
             />
           </div>
 
-          <div class="relative w-full mb-3">
-            <label
-              class="block uppercase text-blue-600 text-base font-bold mb-2"
-              
-            >
-              Message
-            </label>
+          <div class=" w-full mb-3">
+            <label class="block uppercase text-blue-600 text-base font-bold mb-2">Message</label>
             <textarea style="resize: none;" class="border-0 px-2 placeholder-blue-300  py-8  bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-              placeholder="  Message"
-            >
+              placeholder="  Message">
             </textarea>
           </div>
 
           <div class="text-center mt-6">
-            <button
-              class="bg-blue-800 text-white active:bg-blue-600 text-sm font-bold uppercase px-6 lg:py-3 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
-              type="button"
-            >
+            <button class="bg-blue-800 text-white active:bg-blue-600 text-sm font-bold uppercase px-6 lg:py-3 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
+              type="button">
               Enviar
             </button>
           </div>
@@ -207,10 +194,12 @@
         </div>
       </section>
 
-      <div class="bg-gray-700 p-6 pt-20">
+      <div class=" p-6 pt-20" style="background: #191970">
         <Location></Location>
       </div>
 
+    <hr class="ml-4 mr-4">
+    <h6 class="text-center p-4">Todos los derechos reservados @ 2022</h6>
     </main>
   </div>
 </template>
